@@ -1,0 +1,75 @@
+/* Definições de estilo para o corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Estilo para os cabeçalhos */
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin: 10px 0;
+  color: #666;
+}
+
+/* Estilo para links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.fonte-family {
+  font-family: "Courier New";
+}
+
+.fonte-tamanho {
+  font-size: 20px;
+}
+
+.fonte-peso {
+  font-weight: 600;
+}
+
+.fonte-estilo {
+  font-style: italic;
+}
+
+.texto-cor {
+  color: #0088cc;
+}
+
+.texto-centralizado {
+  text-align: center;
+}
+
+.texto-sublinhado {
+  text-decoration: underline;
+}
+
+.texto-maiusculas {
+  text-transform: uppercase;
+}
+
+.sombra-texto {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.espacamento-letras {
+  letter-spacing: 1.5px;
+}
+
+.espacamento-palavras {
+  word-spacing: 14px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
