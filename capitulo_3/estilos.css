@@ -138,3 +138,207 @@ h4 {
 .texto-azul {
   color: blue;
 }
+
+.paragrafo-absoluto {
+  font-size: 16px;
+}
+
+.paragrafo-ponto {
+  font-size: 12pt;
+}
+
+.caixa-polegada {
+  width: 2in;
+  height: 1in;
+  border: 1px solid black;
+}
+
+.caixa-centimetro {
+  width: 5cm;
+  height: 2cm;
+  border: 1px solid red;
+}
+
+.caixa-milimetro {
+  width: 50mm;
+  height: 20mm;
+  border: 1px solid green;
+}
+
+.container {
+  font-size: 20px; /* Tamanho da fonte para o elemento pai */
+}
+
+.texto-em {
+  font-size: 1.5em; /* 150% do tamanho da fonte do elemento pai, ou seja, 30px */
+}
+
+html {
+  font-size: 16px; /* Define o tamanho da fonte padrão para a página */
+}
+
+.texto-rem {
+  font-size: 2rem; /* 200% do tamanho da fonte do elemento raiz, ou seja, 32px */
+}
+
+.container {
+  width: 500px; /* Largura do elemento pai */
+}
+
+.caixa-percentual {
+  width: 50%; /* 50% da largura do seu elemento pai, ou seja, 250px */
+  background-color: teal;
+}
+
+.div-vh {
+  height: 50vh; /* 50% da altura da viewport */
+  background-color: lightblue;
+}
+
+.div-vw {
+  width: 80vw; /* 80% da largura da viewport */
+  background-color: lightcoral;
+}
+
+.cor-rgb {
+  color: rgb(255, 0, 0); /* Vermelho */
+  background-color: rgba(0, 0, 255, 0.5); /* Azul com 50% de opacidade */
+}
+
+.cor-hex {
+  color: #00ff00; /* Verde */
+  background-color: #f00; /* Vermelho */
+}
+
+.cor-hsl {
+  color: hsl(120, 100%, 25%); /* Verde escuro */
+  background-color: hsla(240, 100%, 50%, 0.3); /* Azul com 30% de opacidade */
+}
+
+.fundo-imagem {
+  background-image: url("img/img4.jpg");
+  height: 300px;
+  width: 100%;
+}
+
+.fundo-tamanho {
+  background-image: url("img/img5.jpg");
+  background-size: cover; /* Cobrir todo o elemento */
+  height: 300px;
+  width: 100%;
+}
+
+.fundo-posicao {
+  background-image: url("img/img6.jpg");
+  background-size: cover;
+  background-position: center; /* Centralizar a imagem de fundo */
+  height: 300px;
+  width: 100%;
+}
+
+.fundo-repetir {
+  background-image: url("img/img4.jpg");
+  background-repeat: no-repeat; /* Não repetir a imagem */
+  height: 300px;
+  width: 100%;
+}
+
+.caixa {
+  width: 200px; /* Define a largura da caixa */
+  height: 100px; /* Define a altura da caixa */
+  background-color: lightblue; /* Cor de fundo para visualização */
+}
+
+.container {
+  width: 50%; /* A largura é definida como 50% da largura do elemento pai */
+}
+
+.caixa-relativa {
+  width: 80%; /* A largura é 80% da largura do seu elemento pai (.container) */
+  height: 50vh; /* A altura é 50% da altura da viewport */
+  background-color: lightcoral; /* Cor de fundo para visualização */
+}
+
+.espaco-uniforme {
+  width: 100px;
+  height: 100px;
+  background-color: #ffd700; /* Dourado */
+  margin: 15px; /* Margem uniforme */
+}
+
+.margem-topo {
+  margin-top: 10px;
+}
+
+.margem-direita {
+  margin-right: 20px;
+}
+
+.margem-baixo {
+  margin-bottom: 30px;
+}
+
+.margem-esquerda {
+  margin-left: 40px;
+}
+
+.margem-colapso {
+  margin-bottom: 15px;
+}
+
+.margem-negativa {
+  margin-top: -30px;
+  background-color: #dc143c; /* Carmesim */
+}
+
+.borda-simples {
+  border-style: solid; /* Estilo da borda */
+  border-width: 2px; /* Largura da borda */
+  border-color: #0000ff; /* Cor da borda */
+}
+
+.borda-individual {
+  border-top: 4px dotted red; /* Borda superior pontilhada vermelha */
+  border-right: 3px dashed green; /* Borda direita tracejada verde */
+  border-bottom: 2px solid blue; /* Borda inferior sólida azul */
+  border-left: 5px double orange; /* Borda esquerda dupla laranja */
+}
+
+.borda-arredondada {
+  border: 3px solid purple; /* Borda sólida roxa */
+  border-radius: 10px; /* Raio da borda para arredondar os cantos */
+}
+
+.borda-efeito {
+  border: 2px solid #8a2be2; /* Borda sólida cor de beterraba */
+  border-radius: 50%; /* Cria uma forma circular */
+  width: 100px;
+  height: 100px;
+}
+
+.caixa-padding {
+  padding: 20px; /* Aplica um padding uniforme de 20px em todos os lados */
+  background-color: #ff6347; /* Tomate */
+}
+
+.padding-individual {
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  background-color: #4682b4; /* Azul aço */
+}
+
+.padding-relativo {
+  padding: 2em; /* O padding é baseado no tamanho da fonte do elemento */
+  background-color: #32cd32; /* Verde lima */
+}
+
+.block-elemento {
+  display: block;
+  background-color: lightblue;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
