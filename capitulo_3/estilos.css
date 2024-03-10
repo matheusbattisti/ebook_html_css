@@ -68,8 +68,73 @@ a {
   word-spacing: 14px;
 }
 
+/* Isto é um comentário simples em CSS */
+
+/*
+Este é um comentário
+de múltiplas linhas
+em CSS
+*/
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+.destaque {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+.texto-grande {
+  font-size: 24px;
+}
+
+.texto-azul {
+  color: blue;
+}
+
+#cabecalho-principal {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Seletor universal */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+input[type="text"] {
+  border: 2px solid blue;
+  padding: 5px;
+}
+
+a[href^="http"] {
+  color: red;
+}
+
+div[data-status="ativo"] {
+  background-color: green;
+}
+
+/* Especificidade (0,0,0,1) */
+h4 {
+  color: red;
+}
+
+/* Especificidade (0,0,1,0) */
+.special-header {
+  color: blue;
+}
+
+.texto-azul-important {
+  color: red !important;
+}
+
+.texto-azul {
+  color: blue;
 }
