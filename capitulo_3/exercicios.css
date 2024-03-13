@@ -1,0 +1,198 @@
+body {
+  background-color: lightblue; /* Escolha a cor de fundo de sua preferência */
+}
+
+h1 {
+  color: darkslateblue; /* Define a cor do texto do cabeçalho */
+  text-align: center; /* Centraliza o texto do cabeçalho */
+}
+
+p {
+  margin: 20px auto; /* Centraliza o parágrafo horizontalmente com margem automática */
+  width: 80%; /* Define a largura máxima do parágrafo para melhor legibilidade */
+  line-height: 1.5; /* Aumenta o espaçamento entre as linhas para melhor legibilidade */
+  text-align: justify; /* Justifica o texto do parágrafo para uma apresentação mais limpa */
+}
+
+p {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #00008b;
+}
+
+h2 {
+  font-family: Verdana, sans-serif;
+  font-size: 24px;
+  color: #ff0000;
+}
+
+div {
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+#destaque {
+  background-color: yellow;
+}
+
+.comum {
+  background-color: gray;
+}
+
+div[data-tipo="primario"] {
+  background-color: green;
+}
+
+div[data-tipo="secundario"] {
+  background-color: blue;
+}
+
+div[data-tipo="terciario"] {
+  background-color: red;
+}
+
+.conteudo > span {
+  color: blue;
+}
+
+.conteudo p span {
+  color: red;
+}
+
+.div-font-size {
+  font-size: 12px;
+}
+
+.div-width {
+  width: 240px;
+}
+
+.div-height {
+  height: 60px;
+}
+
+html {
+  font-size: 16px; /* Tamanho de fonte base para rem */
+}
+
+.titulo-h2 {
+  font-size: 1.5em; /* 1.5 vezes o tamanho da fonte do pai */
+}
+
+.paragrafo-p {
+  font-size: 1.25rem; /* 1.25 vezes o tamanho da fonte raiz */
+}
+
+.banner {
+  width: 100vw; /* 100% da largura da viewport */
+  height: 30vh; /* 30% da altura da viewport */
+  background-color: cornflowerblue; /* Uma cor de fundo de sua escolha */
+}
+
+.p-vermelho {
+  color: red;
+}
+
+.p-verde {
+  color: green;
+}
+
+.p-azul {
+  color: blue;
+}
+
+.div-coral {
+  background-color: #ff5733;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.div-verde-limao {
+  background-color: #33ff57;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.div-azul-claro {
+  background-color: #3357ff;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.div-gradiente {
+  background: linear-gradient(to right, #ffc300, #ff5733);
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.div-padding {
+  padding: 20px;
+  border: 1px solid black; /* Adicionado para visualização do efeito do padding */
+}
+
+.paragrafo-margem {
+  margin-bottom: 15px;
+}
+
+.div-borda {
+  width: 300px;
+  border: 5px solid blue;
+  padding: 10px; /* Adicionado para melhor visualização do conteúdo */
+  margin: 20px; /* Adicionado para separar a div das bordas do viewport */
+}
+
+.span-block {
+  display: block;
+}
+
+.div-inline {
+  display: inline;
+}
+
+.div-relative {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+}
+
+.div-absolute {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  background-color: coral;
+  padding: 10px;
+}
+
+.header-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: darkslategray;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.div-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: lightcoral;
+  padding: 10px 0;
+  text-align: center;
+}

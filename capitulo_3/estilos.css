@@ -342,3 +342,106 @@ html {
   padding: 10px 0;
   margin-bottom: 10px;
 }
+
+.inline-elemento {
+  display: inline;
+  background-color: lightcoral;
+  color: white;
+  padding: 5px;
+  margin-right: 5px; /* Aplica margem à direita para separar elementos inline adjacentes */
+}
+
+.inline-block-elemento {
+  display: inline-block;
+  background-color: lightgreen;
+  color: white;
+  width: 100px; /* Define a largura do elemento */
+  height: 100px; /* Define a altura do elemento */
+  text-align: center;
+  line-height: 100px; /* Centraliza verticalmente o texto */
+  margin: 10px; /* Espaçamento entre elementos inline-block adjacentes */
+}
+
+.esconder-elemento {
+  display: none;
+}
+
+.escondido {
+  visibility: hidden;
+}
+
+.visivel {
+  visibility: visible;
+}
+
+.elemento-static {
+  /* position: static; é o padrão, portanto, geralmente não é necessário declará-lo */
+  border: 2px solid blue;
+  margin: 5px;
+}
+
+.elemento-relativo {
+  position: relative;
+  top: 10px; /* Desloca o elemento 10px para baixo a partir de sua posição original */
+  left: 20px; /* Desloca o elemento 20px para a direita a partir de sua posição original */
+  border: 2px solid green;
+}
+
+.container-relativo {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background-color: lightblue;
+}
+
+.elemento-absoluto {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 100px;
+  height: 50px;
+  background-color: coral;
+}
+
+.barra-navegacao {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: darkslateblue;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.cabecalho-sticky {
+  position: -webkit-sticky; /* Para compatibilidade com o Safari */
+  position: sticky;
+  top: 50px;
+  background-color: darkcyan;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+.index-container {
+  position: relative;
+}
+
+.fundo {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  z-index: 1; /* Menor z-index */
+}
+
+.frente {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 50px;
+  top: 50px;
+  background-color: lightcyan;
+  z-index: 2; /* Maior z-index */
+}
